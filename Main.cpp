@@ -1,7 +1,8 @@
 #include <iostream>
-
+#include "Game.h"
 int main() 
 {
-	std::cout << "Think of a number between 1 and 100" << std::endl;
-	
+	Game game;
+	game.run();
+	return 0;
 }
